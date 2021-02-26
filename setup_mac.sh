@@ -48,3 +48,10 @@ brew link --force readline
 
 echo "Cleaning up…"
 brew cleanup
+
+echo ""
+echo "  _          _    _                _     _  _       "
+echo " | |__      | |_ | |_  __ __      | |__ | || | ___  "
+echo " | / /      |  _||   \ \ \ /      |  _ \ \_. |/ -_) "
+echo " |_\_\       \__||_||_|/_\_\      |____/ |__/ \___| "
+echo ""
