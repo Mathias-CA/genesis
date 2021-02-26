@@ -24,6 +24,15 @@ PACKAGES=(
   fastlane
   swiftgen
   swiftlint
+  slack
+  alfred
+  1password
+  brave-browser
+  karabiner-elements
+  overkill
+  skitch
+  gitkraken
+  spotify
 )
 
 echo "Installing packages…"
@@ -39,11 +48,3 @@ brew link --force readline
 
 echo "Cleaning up…"
 brew cleanup
-
-echo "Run"
-
-pod install
-fastlane match
-fastlane app_icon
-
-xed .
