@@ -33,6 +33,7 @@ PACKAGES=(
   skitch
   gitkraken
   spotify
+  meetingbar
 )
 
 echo "Installing packages…"
