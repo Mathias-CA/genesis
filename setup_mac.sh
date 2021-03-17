@@ -17,22 +17,27 @@ fi
 brew update
 
 PACKAGES=(
-  ruby
-  iterm2
-  zsh
-  cocoapods
-  fastlane
-  swiftgen
-  swiftlint
-  slack
-  alfred
-  1password
-  brave-browser
-  karabiner-elements
-  overkill
-  skitch
-  gitkraken
-  spotify
+    1password
+    alfred
+    bartycrouch
+    brave-browser
+    cocoapods
+    fastlane
+    gitkraken
+    iterm2
+    karabiner-elements
+    mactracker
+    meetingbar
+    overkill
+    ruby
+    signal
+    skitch
+    slack
+    spotify
+    swiftgen
+    swiftlint
+    zeplin
+    zsh
 )
 
 echo "Installing packages…"
